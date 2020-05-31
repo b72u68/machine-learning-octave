@@ -20,11 +20,13 @@ S = zeros(n);
 %       number of examples).
 %
 
+% Calculating sigma
+Sigma = 0;
+for i = 1:m,
+    Sigma += 1/m * X(i,:)' * X(i,:);
 
-
-
-
-
+% Calculating vector U and S with svd function
+[U, S, V] = svd(Sigma);
 
 % =========================================================================
 
