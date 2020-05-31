@@ -24,6 +24,7 @@ S = zeros(n);
 Sigma = 0;
 for i = 1:m,
     Sigma += 1/m * X(i,:)' * X(i,:);
+end
 
 % Calculating vector U and S with svd function
 [U, S, V] = svd(Sigma);

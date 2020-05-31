@@ -24,6 +24,7 @@ Z = zeros(size(X, 1), K);
  {for i = 1:m,
  {    x = X(i,:)';
  {    Z(i) = x' * U(:,K);
+ {end
  %}
 
  U_reduce = U(:,1:K);
