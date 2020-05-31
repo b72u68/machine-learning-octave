@@ -1,7 +1,7 @@
 # machine-learning-octave
 Solutions for exercises in Andrew Ng Machine Learning course on Coursera
 
-## Class Link
+## Class Website
 [Machine Learning](https://www.coursera.org/learn/machine-learning/)
 
 ## Course Layout
