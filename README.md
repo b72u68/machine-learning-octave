@@ -12,6 +12,7 @@ Solutions for exercises in Andrew Ng Machine Learning course on Coursera
 5. Regularized Linear Regression and Bias/Variance
 6. Support Vector Machines
 7. K-Means Clusterings and Principal Component Analysis
+8. Anomaly Detection and Recommender Systems
 
 ## TODO
 - [ ] Re-do exercises in Python
